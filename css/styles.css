@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000000;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;  
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 20px;
+    background-color: #292929;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+
+}
+
+h1 {
+    text-align: center;
+    color: #fff8f8;
+    margin: 20px;
+}
+
+.input-section {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+#inputTarea {
+    width: 80%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #2636c9;
+    border-radius: 4px;
+}
+
+#botonAgregar {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #2196F3;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#botonAgregar:hover {
+    background-color: #0b7dda;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+.cosasTarea {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #f9f9f9;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.cosasTarea .textoTarea {
+    flex-grow: 1;
+    font-size: 18px;
+    color: #333;
+}
+
+.botonesTarea button {
+    margin-left: 10px;
+    padding: 5px 10px;
+    font-size: 14px;
+    cursor: pointer;
+    border: none;
+    background-color: #2196F3;
+    color: white;
+    border-radius: 4px;
+}
+
+.botonesTarea button:hover {
+    background-color: #0b7dda;
+}
+
+.botonesTarea input[type="checkbox"] {
+    margin-left: 10px;
+}
+
+.tareaCompletada {
+    background-color: #6b6666; 
+    color: white;
+    text-decoration: line-through;
+}
+
